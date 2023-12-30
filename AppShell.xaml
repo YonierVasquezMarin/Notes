@@ -10,8 +10,11 @@
     <TabBar>
         <ShellContent 
             Title="Principal"
-            ContentTemplate="{DataTemplate local:MainPage}" 
-            Icon="{FontImage Glyph='+', Color=White, Size=35}" />
+            ContentTemplate="{DataTemplate local:MainPage}" />
+
+        <ShellContent 
+            Title="Pruebas"
+            ContentTemplate="{DataTemplate views:TestPage}" />
 
         <ShellContent
             Title="Notes"
