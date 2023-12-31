@@ -21,4 +21,9 @@ public partial class TestPage : ContentPage
     {
         await Navigation.PushAsync(new GridDemo());
     }
+
+    async private void GoToSharedPropertiesPage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new SharedProperties());
+    }
 }
