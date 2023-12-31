@@ -13,9 +13,9 @@ public partial class TestPage : ContentPage
             VerticalOptions = LayoutOptions.Center
         };
 
-        button.Clicked += (sender, args) =>
+        button.Clicked += async (sender, args) =>
         {
-            Console.WriteLine("Button clicked!");
+            await Navigation.PushAsync(new HelloXamlPage());
         };
 
         Content = button;
