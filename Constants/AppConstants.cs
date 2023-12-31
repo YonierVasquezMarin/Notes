@@ -1,4 +1,5 @@
-﻿namespace Notes.Views
+﻿namespace Notes.Constants
+
 {
     internal class AppConstants
     {
