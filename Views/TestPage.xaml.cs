@@ -14,6 +14,6 @@ public partial class TestPage : ContentPage
 
     async private void GoToSliderPage_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new HelloXamlPage());
+        await Navigation.PushAsync(new SliderPage());
     }
 }
