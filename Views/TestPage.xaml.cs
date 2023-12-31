@@ -26,4 +26,9 @@ public partial class TestPage : ContentPage
     {
         await Navigation.PushAsync(new SharedProperties());
     }
+
+    async private void GoToSliderTransformsPage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new SliderTransforms());
+    }
 }

@@ -16,5 +16,8 @@
         <Button Text="Shared properties"
                 Clicked="GoToSharedPropertiesPage_Clicked"
                 Margin="10" />
+        <Button Text="Sliders transforms"
+                Clicked="GoToSliderTransformsPage_Clicked"
+                Margin="10" />
     </VerticalStackLayout>
 </ContentPage>
