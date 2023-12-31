@@ -5,19 +5,15 @@ public partial class TestPage : ContentPage
 	public TestPage()
 	{
 		InitializeComponent();
+    }
 
-        Button button = new Button
-        {
-            Text = "Navigate!",
-            HorizontalOptions = LayoutOptions.Center,
-            VerticalOptions = LayoutOptions.Center
-        };
+    async private void GoToHelloXamlPage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new HelloXamlPage());
+    }
 
-        button.Clicked += async (sender, args) =>
-        {
-            await Navigation.PushAsync(new HelloXamlPage());
-        };
-
-        Content = button;
+    async private void GoToSliderPage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new HelloXamlPage());
     }
 }

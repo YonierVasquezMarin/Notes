@@ -4,9 +4,11 @@
              x:Class="Notes.Views.TestPage"
              Title="TestPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Button Text="Hello Xaml!"
+                Clicked="GoToHelloXamlPage_Clicked" 
+                Margin="10" />
+        <Button Text="Slider"
+                Clicked="GoToSliderPage_Clicked"
+                Margin="10" />
     </VerticalStackLayout>
 </ContentPage>
