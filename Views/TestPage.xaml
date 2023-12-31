@@ -10,5 +10,8 @@
         <Button Text="Slider"
                 Clicked="GoToSliderPage_Clicked"
                 Margin="10" />
+        <Button Text="Grid demo"
+                Clicked="GoToGridDemoPage_Clicked"
+                Margin="10" />
     </VerticalStackLayout>
 </ContentPage>

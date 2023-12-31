@@ -70,6 +70,9 @@
 	  <MauiXaml Update="Views\AllNotesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\XamlSamples\GridDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\XamlSamples\HelloXamlPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

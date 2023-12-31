@@ -16,4 +16,9 @@ public partial class TestPage : ContentPage
     {
         await Navigation.PushAsync(new SliderPage());
     }
+
+    async private void GoToGridDemoPage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new GridDemo());
+    }
 }
