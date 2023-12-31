@@ -19,5 +19,8 @@
         <Button Text="Sliders transforms"
                 Clicked="GoToSliderTransformsPage_Clicked"
                 Margin="10" />
+        <Button Text="List view demo"
+                Clicked="GoToListViewDemoPage_Clicked"
+                Margin="10" />
     </VerticalStackLayout>
 </ContentPage>

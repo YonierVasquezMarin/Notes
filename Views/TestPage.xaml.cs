@@ -33,4 +33,9 @@ public partial class TestPage : ContentPage
     {
         await Navigation.PushAsync(new SliderTransforms());
     }
+
+    async private void GoToListViewDemoPage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ListViewDemo());
+    }
 }
