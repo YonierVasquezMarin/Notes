@@ -1,3 +1,5 @@
+using Notes.Views.XamlSamples;
+
 namespace Notes.Views;
 
 public partial class TestPage : ContentPage
