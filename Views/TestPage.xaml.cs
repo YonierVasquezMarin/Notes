@@ -38,4 +38,9 @@ public partial class TestPage : ContentPage
     {
         await Navigation.PushAsync(new ListViewDemo());
     }
+
+    async private void GoToMonkeySingularObjectList_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MokeyListSingleObject());
+    }
 }

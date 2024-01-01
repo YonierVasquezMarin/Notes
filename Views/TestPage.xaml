@@ -22,5 +22,8 @@
         <Button Text="List view demo"
                 Clicked="GoToListViewDemoPage_Clicked"
                 Margin="10" />
+        <Button Text="Monkey list using single object"
+                Clicked="GoToMonkeySingularObjectList_Clicked"
+                Margin="10" />
     </VerticalStackLayout>
 </ContentPage>
