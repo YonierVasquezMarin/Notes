@@ -43,4 +43,9 @@ public partial class TestPage : ContentPage
     {
         await Navigation.PushAsync(new MokeyListSingleObject());
     }
+
+    async private void GoToAttachedBehavior_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new AttachedBehavior());
+    }
 }
